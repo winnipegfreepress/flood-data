@@ -2,16 +2,16 @@
   "name": "flood_scraper",
   "version": "1.0.0",
   "description": "Scrapes data from city site for current flood data",
+  "dependencies": {
+   "cheerio": "^0.22.0",
+   "express": "^4.15.2",
+   "fast-csv": "^2.4.0",
+   "request": "^2.81.0"
+ },
   "main": "scraping.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "ISC",
-  "author": "Graeme Bruce",
-  "dependencies": {
-   "cheerio": "^0.22.0",
-   "express": "^4.15.2",
-   "fast-csv": "^2.4.0",
-   "request": "^2.81.0",
- }
+  "author": "Graeme Bruce"
 }
