@@ -1,9 +1,9 @@
 //Dependencies
-var express = require('express');
-var path = require('path');
+//var express = require('express');
+//var path = require('path');
 var request = require('request');
 var cheerio = require('cheerio');
-var fs = require('fs');
+//var fs = require('fs');
 var S3Config = require('s3-append').S3Config;
 
 // setup S3 config
@@ -21,8 +21,8 @@ var service = new S3Append(config, 'data/water_levels.csv', Format.Text);
  
 
 //local server stuff
-var app = express();
-var port = 8000;
+//var app = express();
+//var port = 8000;
 
 
 //empty array for results
