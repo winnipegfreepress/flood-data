@@ -6,7 +6,10 @@
    "cheerio": "^0.22.0",
    "request": "^2.81.0",
    "aws-sdk": "2.x"
- },
+  },
+  "engines": {
+    "node": "6.11.1"
+  },
   "main": "scraping.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
